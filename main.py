@@ -29,7 +29,7 @@ if operation == '+':
     st.success(f'The Sum of {first_num} and {sec_num} is = {result}')
 
 elif operation == '-':
-    result = sec_num - first_num
+    result = first_num - sec_num
     st.success(f'The difference between {sec_num} and {first_num} is  = {result} ')    
 elif operation == '*':
     result = first_num * sec_num
